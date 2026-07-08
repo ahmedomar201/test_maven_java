@@ -14,7 +14,23 @@
     <artifactId>project1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <dependencies>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+
+        </dependency>
+    </dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>com.github.github</groupId>
+            <artifactId>site-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
 
 
 </project>
